@@ -1,0 +1,40 @@
+/target/
+/ap-operations-service-db/target/
+/ap-operations-service/target/
+/ap-operations-service-api/target/
+/process-engine/target/
+/ap-operations-service-client/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+mvnw
+mvnw.cmd
+*.log
+# Project exclude paths
+/reactive-product-api/target/
+/reactive-product-client/target/
+/reactive-product-service/target/

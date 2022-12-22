@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/20221201_create_product_table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: liquibase/20221201_insert_data_to_product.sql
+      relativeToChangelogFile: true

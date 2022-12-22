@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: test
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5422/test_product_db
+    username: postgres
+    password: postgres
+
+  liquibase:
+    change-log: classpath:db.changelog-master.yaml
+    url: jdbc:postgresql://localhost:5422/test_product_db
+    user: postgres
+    password: postgres

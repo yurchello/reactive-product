@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+  product-db:
+      image: postgres:11
+      container_name: product-db
+      ports:
+          - "5422:5432"
+      #command: postgres -c logging_collector=on -c log_min_duration_statement=0
+      environment:
+        POSTGRES_DB: product_db
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
